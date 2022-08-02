@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\SearchAlgorithms">
+      <UniqueIdentifier>{a3d79f94-5c01-4da7-8cc3-7619b545212e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SearchAlgorithms\AStar">
+      <UniqueIdentifier>{9344828f-c300-4736-8e9a-5481f1611b0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SearchAlgorithms\MCTS">
+      <UniqueIdentifier>{3ac2f94c-065e-4832-aed7-7ef5443c2477}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SearchAlgorithms\DFS">
+      <UniqueIdentifier>{4f671ced-d858-4821-b8ac-31728189fc0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Problems">
+      <UniqueIdentifier>{4bd0f533-e529-41a4-83a4-e22beb61a657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Problems\ZombiesvsCoders">
+      <UniqueIdentifier>{bc618844-198d-46fa-8e9e-17dd8d114e1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Problems\UltimateTTT">
+      <UniqueIdentifier>{506f4692-b456-4c0a-bdf5-3c4356c8fbb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SearchAlgorithms\Minimax">
+      <UniqueIdentifier>{18340caa-4595-4669-aa3a-7fafd395289f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SearchAlgorithms\Arena">
+      <UniqueIdentifier>{498bbdbf-9715-4470-be33-8babb55df84e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SearchAlgorithms\Tree Search">
+      <UniqueIdentifier>{8b4727e0-a1a3-40d2-a74b-6bc90a20d98a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SearchAlgorithmsAI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AStarSearch.h">
+      <Filter>Header Files\SearchAlgorithms\AStar</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeInterfaceAStar.h">
+      <Filter>Header Files\SearchAlgorithms\AStar</Filter>
+    </ClInclude>
+    <ClInclude Include="MCTS.h">
+      <Filter>Header Files\SearchAlgorithms\MCTS</Filter>
+    </ClInclude>
+    <ClInclude Include="DepthSearch.h">
+      <Filter>Header Files\SearchAlgorithms\DFS</Filter>
+    </ClInclude>
+    <ClInclude Include="Humans.h">
+      <Filter>Header Files\Problems\ZombiesvsCoders</Filter>
+    </ClInclude>
+    <ClInclude Include="CvZstate.h">
+      <Filter>Header Files\Problems\ZombiesvsCoders</Filter>
+    </ClInclude>
+    <ClInclude Include="CvZnode.h">
+      <Filter>Header Files\Problems\ZombiesvsCoders</Filter>
+    </ClInclude>
+    <ClInclude Include="Zombies.h">
+      <Filter>Header Files\Problems\ZombiesvsCoders</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeInterfaceMCTS.h">
+      <Filter>Header Files\SearchAlgorithms\MCTS</Filter>
+    </ClInclude>
+    <ClInclude Include="TTTnode.h">
+      <Filter>Header Files\Problems\UltimateTTT</Filter>
+    </ClInclude>
+    <ClInclude Include="UTTTnode.h">
+      <Filter>Header Files\Problems\UltimateTTT</Filter>
+    </ClInclude>
+    <ClInclude Include="Minimax.h">
+      <Filter>Header Files\SearchAlgorithms\Minimax</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeInterfaceMM.h">
+      <Filter>Header Files\SearchAlgorithms\Minimax</Filter>
+    </ClInclude>
+    <ClInclude Include="UTTTnodeMM.h">
+      <Filter>Header Files\Problems\UltimateTTT</Filter>
+    </ClInclude>
+    <ClInclude Include="ArenaFight.h">
+      <Filter>Header Files\SearchAlgorithms\Arena</Filter>
+    </ClInclude>
+    <ClInclude Include="Fighter.h">
+      <Filter>Header Files\SearchAlgorithms\Arena</Filter>
+    </ClInclude>
+    <ClInclude Include="MMFighter.h">
+      <Filter>Header Files\SearchAlgorithms\Minimax</Filter>
+    </ClInclude>
+    <ClInclude Include="MCTSFighter.h">
+      <Filter>Header Files\SearchAlgorithms\MCTS</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Header Files\SearchAlgorithms\Tree Search</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchAlgorithm.h">
+      <Filter>Header Files\SearchAlgorithms\Tree Search</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomSearch.h">
+      <Filter>Header Files\SearchAlgorithms\Tree Search</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
